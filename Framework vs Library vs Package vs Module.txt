@@ -1,0 +1,59 @@
+What is a Module?
+Is the smallest piece of software.
+A module is a set of methods or functions ready to be used somewhere else.
+
+What is a Package?
+It is a collection of modules.
+Usually what a package does, is gather a number of modules holding in 
+general the same functional purpose.
+Making it easier to include all the related modules at once.
+
+Library
+Well library at it's core, is a collections of packages. 
+It's purpose is to offer a set of functionalities ready to 
+use without worrying about the subsequent packages. 
+So a library is what you include when you want to add some functionality 
+to your code. It does not force any coding style on you either.
+
+Framework
+It's a set of libraries. 
+But this time, the framework does not just offer functionalities, 
+but it also provides an architecture for the development work. 
+In other words you don't include a framework. 
+You integrate your code into it. 
+It is the wire frame of the project. 
+That's why a framework forces its coding style on you.
+
+
+
+What is a Framework?
+
+To do a specific task, we require specific classes / functions / 
+interfaces. 
+Like if we want to write a program related to a calculator application,
+we require ---> 
+1. a method to take input from device to calculator application
+2. for processing we need some functions like add(), subtract(), etc
+3. again for logging the output of calculator application to the device we
+need some output writing methods like log(), display(), etc.
+
+So, everytime, you want to create a calculator application, 
+would you want to do it from scratch? 
+Obviously, no. We would simply use these pre-defined codes 
+and on top of it, we will write our own code!
+
+So for ease, we put all these pre-written codes, may it be classes, 
+functions, interfaces, callbacks, listeners, constants, etc etc 
+inside one place and that is nothing but a framework. 
+
+Therefore, Framework are the bodies that contains the pre-written codes 
+(classes and functions) in which we can add our code to overcome the 
+problem.
+
+Spring, Collections, etc are example of Frameworks in Java.
+
+What is a collection in Java?
+A Collection represents a single unit of objects.
+
+
+

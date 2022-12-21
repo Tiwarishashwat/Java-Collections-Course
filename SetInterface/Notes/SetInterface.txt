@@ -1,0 +1,18 @@
+3. Set Interface
+1. Duplicates are not allowed in set.
+
+-> HashSet 
+1. Uses hasing concept for storing the elements.
+2. Insertion order is not preserved.
+3. Uses "equals" method of Object class for comparing.
+4. Uses "hashCode" method of Object class for comparing. 
+
+-> Linked HashSet
+1. Stores unique elements.
+2. Insertion order is preserved.
+
+-> Tree HashSet
+1. Elements will be maintained in sorted order.
+2. It follows Hashing concept.
+3. It is build on top of SB Binary Search Tree.
+

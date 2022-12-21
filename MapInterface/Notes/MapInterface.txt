@@ -1,0 +1,96 @@
+Map ->
+1. Map is used for storing Key-Value pairs.
+2. Keys will always be unique.
+3. Values can repeat.
+4. Data type of key and value may or may not be same. 
+5. The load factor is the measure that decides when to increase 
+the capacity of the Map.
+
+HashMap class->
+1. Uses the concept of hashing to store the elements.
+2. Order is not maintained in the map.
+3. Some methods are :
+   map.get()
+   map.put()
+   map.getOrDefault(key, defaultValue)
+   map.putIfAbsent(key, value)
+   map.containsKey()
+   map.containsValue()
+
+Map Signature ->
+Map<Integer, String> map = new HashMap<Integer, String>();
+
+//To Iterate over the keys.
+
+for(Integer key : map.keySet())
+{
+    System.out.println(key);
+}
+
+// To Iterate over the keys.
+
+for(String value : map.values())
+{
+    System.out.println(value);
+}
+
+
+// To Iterate over the keys.
+
+for(Map.Entry<Integer, String> e : map.entrySet())
+{
+    System.out.println(e.getKey() + "ello ello" + e.getValue()) ;
+}
+
+TreeMap class ->
+1. Sorted Order is maintained.
+
+Concept used -->
+A red-black tree is a self-balancing binary search tree 
+where each node has an extra bit as the colour (red or black). 
+These colours are used to ensure that the tree remains balanced 
+during insertions and deletions. 
+
+Although the balance of the tree is not perfect but 
+it is good enough to reduce the searching time to around O(log n) 
+ 
+properties -->
+1. The root node must be Black in colour.
+2. The red node can not have a red colour neighbours node.
+3. All the paths from the root to the null shoul contain same number
+of black nodes.
+
+The left elements are always less than the parent element.
+Natural ordering is computed in logical comparison of the objects.
+The right elements are always greater than or equal to the parent element.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

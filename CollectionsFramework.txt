@@ -1,0 +1,50 @@
+Base Interface -> Iterable Interface
+
+Collection Interface extends Iterable Interface
+
+All the sub-interfaces will diectly / indirectly extend the Collection 
+Framework. exception is Map Interface
+
+Some common Methods exposed by collection Interface.
+
+0. size()
+1. isEmpty() 
+2. clear()
+3. add(element)
+4. addAll(Collection)
+5. contains(element)
+6. containsAll(Collection)
+7. remove(element)
+8. removeAll(Collection)
+9. iterator()
+10. toArray()
+11. retainAll(Collection) 
+
+Some common Methods exposed by Iterator Interface.
+
+1. hasNext() // should be overridden	
+2. next()	// should be overridden
+3. remove()	
+
+Iterable Interface 
+1. Iterator() // should be overridden - 
+its return type is an Iterator interface
+
+
+Iterator vs Iterable
+1.Iterable interface belongs to the java.lang package. It represents a data structure that can be iterated over. 
+2.Iterable interface provides a method that produces an Iterator.
+3. When using an Iterable, we cannot get an element by index. 
+4. Similarly, we cannot get the first or the last elements from the data structure as well.
+5. Iterator is a member of the Java Collections Framework. 
+6. It belongs to the java.util package. 
+7. This interface allows us to retrieve or remove elements from a collection during the iteration.
+
+
+
+1. Represents a collection that can be iterated over using a for-each loop	1. Represents an interface that can be used to iterate over a collection
+2. When implementing an Iterable, we need to override the iterator() method	2. When implementing an Iterator, we need to override the hasNext() and next() methods
+3. Doesn't store the iteration state							3. Stores the iteration state
+4. Removing elements during the iteration isn't allowed				4. Removing elements during the iteration is allowed
+
+
